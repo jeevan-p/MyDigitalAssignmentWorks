@@ -1,0 +1,424 @@
+/* -------------------------------------------------------------------------------- Header styling */
+
+.header
+{
+	position: fixed;
+	z-index: 500;
+	background: white;
+	width: 100%;
+	height: auto;	
+}
+
+.logo
+{
+	background-color: white;
+	padding-left: 80px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.mainlogoimg
+{
+	width: 60px;
+	padding-right: 10px;
+}
+
+.webname
+{
+	width:10px;	
+	display: inline;
+	font-family: cursive;
+}
+
+.welcome
+{
+	font-size: 12px;
+	font-family: sans-serif;
+	color: skyblue;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 1360px;
+	
+	text-shadow: 1px 1px 0px black;
+}
+
+.nav
+{
+	display: inline;
+	margin-top: 60px;
+	margin-left: 0px;
+	width: 100%;
+}
+
+nav ul li
+{		
+	padding-left: 0px;
+	padding-right: 30px;
+	display: inline;	 
+}
+
+nav ul li a:hover
+{
+	text-decoration: underline;
+	color: white;
+	text-shadow: 1px 1px 15px black;
+}
+
+nav ul li a
+{
+	text-decoration: none;
+	text-align: center;
+	font-size: 20px;
+	color: skyblue;
+	text-shadow: 1px 1px 2px black;
+}
+
+nav ul{
+	padding: 5px 0px;
+	margin: 0px;
+	margin-bottom: 5px;
+	padding-left: 125px;	
+	background-color: lightgrey;	
+
+}
+
+.search
+{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	margin: 0px;
+	background: #EBF5FB;
+}
+
+.form
+{
+	margin-top:10px;
+	margin-bottom: 10px; 
+}
+
+.text
+{
+	width: 500px;
+	height: 20px;	
+}
+
+.sub
+{
+	padding: 3px 20px;
+}
+
+
+/* -------------------------------------------------------------------------------- End of Header styles */
+
+/* -------------------------------------------------------------------------------- Body styling */
+
+body
+{
+	background: lightgrey;
+}
+
+.wrap{
+	background: white;
+	font-family: cursive;
+}
+
+main
+{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.sec
+{
+	padding-top: 170px;
+	height:470px;
+}
+
+.next a,.hov
+{
+	text-decoration: none;
+	font-size: 20px;
+	color: black;	
+}
+
+.next a:hover,.hov:hover
+{
+	text-decoration: underline;
+	font-size: 20px;
+	color: black;	
+}
+
+.welnote h5
+{
+	padding-left: 20px;
+}
+
+.hero
+{
+	background: url(../images/sea.jpg);
+	height: 400px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	position: relative;
+}
+
+.webchar
+{
+	padding-top: 0px;
+	background: darkgrey;
+	overflow: hidden;
+	width: 100%;
+	text-align: center;
+}
+
+.webchar ul li
+{
+	display: inline;
+	padding-right: 100px;
+}
+
+.webchar ul li:first-child
+{
+	padding-left: 80px;
+}
+
+.logocls
+{
+	position: absolute;
+	top: 30px;
+	left: 100;
+	right: 0;
+	bottom: 0;
+}
+
+.logoimg
+{
+	width: 300px;
+}
+
+.container_12 .grid_12
+{
+	width: 960px;
+}
+.ocean
+{
+		padding: 90px 20px;
+		margin-left: 150px;
+}
+
+blockquote .q1
+{
+	margin-left: 850px;
+}
+
+blockquote .q1,blockquote .q3
+{
+		display: inline;
+		font-size: 60px;
+		font-family: 'News Cycle', sans-serif;
+		color: white;
+}
+
+blockquote .q2
+{	
+	display: inline;
+	font-size: 20px;
+	font-style: italic;
+	font-family: 'Slabo 27px', serif;
+	color: white;
+	text-shadow: 1px 1px 15px black;
+}
+
+blockquote .q4
+{	
+	margin-left: 1250px;
+	font-size: 18px;
+	font-family: sans-serif;
+	color: white;
+}
+
+
+.char
+{
+	margin-top: 20px;
+	padding-top: 0px;
+	text-align: center;
+	font-size: 18px;
+	text-shadow: 0px 2px 0px white;
+}
+
+.mostsrch
+{
+	background: white
+	margin-top: 90px;
+	position: relative;
+}
+
+.mostsrch div .topsrchpara
+{
+	padding-left: 20px;	
+	font-size: 25px;
+}
+
+.mostsrch div h4
+{
+	padding-top: 20px;
+	
+}
+
+.mostsrch div p
+{
+	
+}
+
+.first
+{
+	background: #EBF5FB;
+	height: 320px;
+}
+
+.topimg
+{
+	float: left;
+	padding: 20px 0px 0px 10px;
+	margin-right: 15px;
+}
+
+.secnd
+{
+	position: relative;
+	height: 310px;
+}
+
+.secnd1,.secnd2
+{
+	height: 140px;
+}
+
+.secnd3
+{
+	height: 20px;
+	margin-top: 10px;
+	padding: 5px;
+	overflow: hidden;
+	background: #EBF5FB;
+	text-align: center;
+	margin-right: 20px;
+}
+
+.secimg
+{
+	height: 130px;
+	float: left;
+	padding: 0px 0px 0px 0px;
+	margin-right: 15px;
+}
+
+.thrdimg
+{
+	margin-top: 11px;
+	margin-left: 0px;
+	height: 130px;
+	float: left;
+	padding: 0px 0px 0px 0px;
+	margin-right: 15px;
+}
+
+.category
+{	
+	font-size: 10px;
+	color: grey;
+	margin: 0px;
+}
+
+.tp
+{
+	margin: 0px;
+}
+
+/* -------------------------------------------------------------------------------- End of Body styles */
+
+/* --------------------------------------------------------------------------------Footer Style */
+
+.footer
+{
+	margin: 0px;	
+}
+
+.wrap3
+{
+	height: 100px;
+	background: darkgrey;
+	width: 100%;
+
+}
+
+.shrt
+{
+	float: left;
+	width: 50%;
+}
+.shrt ul,.footrt
+{
+	margin-top: 15px;
+}
+
+.shrt ul li
+{
+	display: inline;
+}
+
+.shrt ul li a
+{
+	text-decoration: none;
+	font-size: 10px;
+	color: black;	
+}
+
+.shrt ul a:hover
+{
+	text-decoration: underline;
+	font-size: 10px;
+	color: black;	
+}
+
+.authr
+{
+
+	display: inline;
+	float: right;
+	width: 50%;
+	padding-bottom: 0;
+}
+
+.footrt
+{
+	font-size: 10px;
+	float: right;	
+	padding-right: 20px;
+}
+
+.socil
+{
+	overflow: hidden;
+	width: 100%;
+	height: 30px;
+	text-align: center;
+}
+
+.linimg
+{
+	width:25px;
+}
+
+.fbimg,.tweetimg,.gplusimg
+{
+	width: 25px;
+}
+
+/* -------------------------------------------------------------------------------- End of Footer Style */
+
