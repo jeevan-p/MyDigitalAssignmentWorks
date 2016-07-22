@@ -1,3 +1,8 @@
+p
+{
+	font-size: 18px;
+}
+
 /* -------------------------------------------------------------------------------- Header styling */
 
 .header
@@ -32,16 +37,14 @@
 
 .welcome
 {
-	font-size: 12px;
+	font-size: 13px;
 	font-family: sans-serif;
-	color: skyblue;
+	color: black;
 	position: absolute;
-	top: 0;
+	top: 10px;
 	bottom: 0;
 	right: 0;
-	left: 1360px;
-	
-	text-shadow: 1px 1px 0px black;
+	left: 1360px;	
 }
 
 .nav
@@ -61,9 +64,9 @@ nav ul li
 
 nav ul li a:hover
 {
-	text-decoration: underline;
-	color: white;
-	text-shadow: 1px 1px 15px black;
+	
+	color: black;
+	text-shadow: 1px 1px 2px black;
 }
 
 nav ul li a
@@ -71,8 +74,8 @@ nav ul li a
 	text-decoration: none;
 	text-align: center;
 	font-size: 20px;
-	color: skyblue;
-	text-shadow: 1px 1px 2px black;
+	color: white;
+	text-shadow: 1px 1px 15px black;
 }
 
 nav ul{
@@ -88,7 +91,8 @@ nav ul{
 {
 	padding-top: 5px;
 	padding-bottom: 5px;
-	text-align: center;
+	padding-right: 20px;
+	text-align: right;
 	margin: 0px;
 	background: #EBF5FB;
 }
@@ -121,6 +125,7 @@ body
 }
 
 .wrap{
+	margin-top: 0px;
 	background: white;
 	font-family: cursive;
 }
@@ -128,12 +133,14 @@ body
 main
 {
 	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-bottom: 90px;
 }
+
+
 
 .sec
 {
-	padding-top: 170px;
+	padding-top: 10px;
 	height:470px;
 }
 
@@ -158,41 +165,59 @@ main
 
 .hero
 {
+	padding-top: 170px;
 	background: url(../images/sea.jpg);
-	height: 400px;
+	height: 600px;
 	margin-left: 0px;
 	margin-top: 0px;
 	margin-right: 0px;
+	margin-bottom: 0px;
 	position: relative;
 }
 
-.webchar
+.hero p
 {
-	padding-top: 0px;
-	background: darkgrey;
-	overflow: hidden;
-	width: 100%;
-	text-align: center;
+	
 }
 
-.webchar ul li
+.wel1
 {
-	display: inline;
-	padding-right: 100px;
-}
-
-.webchar ul li:first-child
-{
-	padding-left: 80px;
+	margin-top: 0px;
+	margin-left: 150px;
 }
 
 .logocls
 {
 	position: absolute;
-	top: 30px;
+	top: 210px;
 	left: 100;
 	right: 0;
 	bottom: 0;
+}
+
+.form1
+{
+	text-align: center;
+	margin-top:40px;
+	margin-bottom: 10px; 
+}
+
+.text1
+{	
+	width: 500px;
+	height: 40px;	
+}
+
+.form1 input
+{
+	font-size: 22px;
+}
+
+.sub1
+{
+	margin-top: 30px;
+	width: 150px;
+	height: 40px;		
 }
 
 .logoimg
@@ -206,8 +231,15 @@ main
 }
 .ocean
 {
-		padding: 90px 20px;
+		padding: 90px 10px 0px 0px;
 		margin-left: 150px;
+}
+
+blockquote
+{
+	margin-top: 80px;
+	background: darkgrey;
+	padding-bottom: 25px;
 }
 
 blockquote .q1
@@ -221,6 +253,7 @@ blockquote .q1,blockquote .q3
 		font-size: 60px;
 		font-family: 'News Cycle', sans-serif;
 		color: white;
+		text-shadow: 1px 1px 15px black;
 }
 
 blockquote .q2
@@ -239,16 +272,7 @@ blockquote .q4
 	font-size: 18px;
 	font-family: sans-serif;
 	color: white;
-}
-
-
-.char
-{
-	margin-top: 20px;
-	padding-top: 0px;
-	text-align: center;
-	font-size: 18px;
-	text-shadow: 0px 2px 0px white;
+	text-shadow: 1px 1px 15px black;
 }
 
 .mostsrch
@@ -330,7 +354,7 @@ blockquote .q4
 
 .category
 {	
-	font-size: 10px;
+	font-size: 12px;
 	color: grey;
 	margin: 0px;
 }
@@ -340,13 +364,18 @@ blockquote .q4
 	margin: 0px;
 }
 
+.details
+{
+	font-size: 15px;
+}
+
 /* -------------------------------------------------------------------------------- End of Body styles */
 
 /* --------------------------------------------------------------------------------Footer Style */
 
 .footer
 {
-	margin: 0px;	
+	margin: 0px;		
 }
 
 .wrap3
@@ -372,17 +401,22 @@ blockquote .q4
 	display: inline;
 }
 
+.shrt ul
+{
+	padding-left: 100px;
+}
+
 .shrt ul li a
 {
 	text-decoration: none;
-	font-size: 10px;
+	font-size: 15px;
 	color: black;	
 }
 
 .shrt ul a:hover
 {
 	text-decoration: underline;
-	font-size: 10px;
+	font-size: 15px;
 	color: black;	
 }
 
@@ -397,7 +431,7 @@ blockquote .q4
 
 .footrt
 {
-	font-size: 10px;
+	font-size: 15px;
 	float: right;	
 	padding-right: 20px;
 }
