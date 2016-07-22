@@ -3,6 +3,11 @@ p
 	font-size: 18px;
 }
 
+.hed h3
+{
+	text-decoration: underline;
+}
+
 /* -------------------------------------------------------------------------------- Header styling */
 
 .header
@@ -282,11 +287,7 @@ blockquote .q4
 	position: relative;
 }
 
-.mostsrch div .topsrchpara
-{
-	padding-left: 20px;	
-	font-size: 25px;
-}
+
 
 .mostsrch div h4
 {
